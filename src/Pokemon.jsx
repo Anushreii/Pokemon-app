@@ -9,8 +9,7 @@ export const Pokemon = () => {
   const [search, setSearch] = useState("");
 
   const API = "https://pokeapi.co/api/v2/pokemon?limit=124";
-  // subscribe to thapa technical youtube channel: https://www.youtube.com/thapatechnical
-
+  
   const fetchPokemon = async () => {
     try {
       const res = await fetch(API);
@@ -61,7 +60,7 @@ export const Pokemon = () => {
     );
   }
 
-  // subscribe to thapa technical youtube channel: https://www.youtube.com/thapatechnical
+
 
   return (
     <>
